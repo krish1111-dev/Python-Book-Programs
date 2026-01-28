@@ -33,3 +33,35 @@ print(motorcycle)
 
 del motorcycle[1]
 print(motorcycle) """
+
+
+# pop method
+
+""" popped_motorcycle = motorcycle.pop()
+popped_motorcycle = motorcycle.pop(1)
+print(popped_motorcycle)
+print(motorcycle)
+
+name = {
+    "name": "Krish",
+    "age": 20,
+    "city": "jetpur"
+}
+remove_age = name.pop("age")
+print(name)
+
+city = name.pop("city")
+print(f"I am living in the {city.title()} city") """
+
+# removing an item by value
+
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+
+# motorcycles.remove('suzuki')
+# print(motorcycles)
+
+not_buy = 'suzuki'
+motorcycles.remove(not_buy)
+print(motorcycles)
+print(f"I dont like {not_buy.title()} bikes")
