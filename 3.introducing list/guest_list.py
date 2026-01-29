@@ -10,6 +10,10 @@ Guest_list.insert(0, 'Jay bhai')
 Guest_list.insert(2, "Krish bhai")
 Guest_list.append("Rajveer bhai")
 
+# len method
+total = len(Guest_list)
+print(f"there are {total} pepople")
+
 print("\n You can arrive only two people for dinner")
 
 # remove name using pop method
