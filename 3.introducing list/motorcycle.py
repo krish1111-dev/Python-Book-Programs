@@ -53,6 +53,9 @@ print(name)
 city = name.pop("city")
 print(f"I am living in the {city.title()} city") """
 
+
+
+
 # removing an item by value
 
 motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']

@@ -30,3 +30,6 @@ print(Universe_age)
 x, y, z = 1, 2, 3
 
 print(x, y, z)
+
+#constants
+MAX_CONNECTIONS = 5000

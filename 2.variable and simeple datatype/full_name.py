@@ -26,6 +26,10 @@ url = "https://instagram.com"
 insta = url.removeprefix("https://")  # removeprefix
 print(insta)
 
+
+#second example
 bike = "Hero Honda ZMR"
 zmr = bike.removeprefix("Hero Honda")
 print(zmr)
+
+

@@ -28,6 +28,8 @@ print("\n final invitation")
 print(f"{Guest_list[0]}, You are still invited for dinner")
 print(f"{Guest_list[1]}, You are still invited for dinner")
 
+
+# deleter name
 del Guest_list[1]
 del Guest_list[0]
 
